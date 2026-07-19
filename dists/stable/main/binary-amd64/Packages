@@ -16,3 +16,22 @@ Description: Lossless JPEG compressor
  achieving better compression than standard JPEG storage. Supports
  single-file parallel compression (-sfth) and batch multi-threading (-th).
 
+Package: packmp3
+Version: 3.0
+Architecture: amd64
+Maintainer: Yade Bravo <https://github.com/YadeWira/packMP3>
+Installed-Size: 6464
+Depends: libc6, libstdc++6, zlib1g, liblzma5
+Filename: pool/main/packmp3_3.0_amd64.deb
+Size: 2103736
+MD5sum: 33791fc1540222b70e48e9ab856aa1dc
+SHA1: 7f141e798e4d7beb48bdbe35da0d86d67e50fa9b
+SHA256: 6ad4f86bd5a24052ce2d12f8b885b2b0d7515bf45a275d222f6f676b3ce38f1e
+Section: utils
+Priority: optional
+Description: Lossless MPEG audio compressor (MP3/MP2/MP1)
+ packMP3 losslessly recompresses MP3 (Layer III), MP2 (Layer II) and
+ MP1 (Layer I) audio files, reconstructing the exact original file bit
+ for bit. Embedded ID3v2 JPEG/PNG cover art is recompressed too, via
+ the sibling packJPG and packPNG libraries.
+
