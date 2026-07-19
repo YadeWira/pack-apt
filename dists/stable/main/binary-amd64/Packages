@@ -55,3 +55,20 @@ Description: Lossless MPEG audio compressor (MP3/MP2/MP1)
  for bit. Embedded ID3v2 JPEG/PNG cover art is recompressed too, via
  the sibling packJPG and packPNG libraries.
 
+Package: packpng
+Version: 2.0c
+Architecture: amd64
+Maintainer: Yade Bravo <https://github.com/YadeWira/packPNG>
+Installed-Size: 7596
+Filename: pool/main/packpng_2.0c_amd64.deb
+Size: 2592368
+MD5sum: 268c13a554fb5b11758c519b3450bc0a
+SHA1: 82ae02354b2f50ee25607552a0a83b80c4805027
+SHA256: e08f5eb34930ac712cc150a3e6bad60e492c8d610e35b1bfa3c64151816b21fe
+Section: utils
+Priority: optional
+Description: Lossless PNG/APNG/JNG/MNG recompressor
+ packPNG reconstructs the byte-identical original file (same SHA-256), not
+ just the same pixels. Undoes the deflate exactly (preflate) and re-stores
+ the image with a real codec (WebP-lossless by default).
+
