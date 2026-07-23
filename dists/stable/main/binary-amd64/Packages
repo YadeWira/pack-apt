@@ -35,6 +35,26 @@ Description: MPEG Audio Layer I/II lossless transform + compression
  .
  Includes CLI tool, static library (libpackmp2.a), and C header.
 
+Package: packmp2
+Version: 0.8.0
+Architecture: amd64
+Maintainer: Tovy <packmp2@yadewira.github.io>
+Depends: libc6 (>= 2.34), libstdc++6 (>= 5)
+Filename: pool/main/packmp2_0.8.0_amd64.deb
+Size: 472316
+MD5sum: 3a5f7b56e51f0fa85f0247840769c99d
+SHA1: bf835f44d23a60502fc06b4b342532193062a880
+SHA256: d0083f4d29b740c0c253950b491a62087b15e4db04ebec3cb6b0a6862f329284
+Section: utils
+Priority: optional
+Homepage: https://github.com/YadeWira/packMP2
+Description: MPEG Audio Layer I/II lossless transform + compression
+ packMP2 reorders MPEG Layer I/II audio frames into the structured um2
+ format and compresses them with zstd (fast, ~90%) or zpaq context-mixing
+ (best, ~81%, matches lpaq8). Fully lossless — roundtrip is byte-exact.
+ .
+ Includes CLI tool, static library (libpackmp2.a), and C header.
+
 Package: packmp3
 Version: 3.0
 Architecture: amd64
