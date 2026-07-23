@@ -100,10 +100,10 @@ Maintainer: Yade Bravo <https://github.com/YadeWira/packMP3>
 Installed-Size: 6464
 Depends: libc6, libstdc++6, zlib1g, liblzma5
 Filename: pool/main/packmp3_3.0a_amd64.deb
-Size: 2113064
-MD5sum: 97e25c41c56c8df206c661acdde337c5
-SHA1: d9443c6f30a352dab7d4c0c3cfb9d70b7ef279ca
-SHA256: 4506f3c866f664fd1cd724396a2d4a3b61593c99f4bc3a98568aa8461c7c7579
+Size: 2112432
+MD5sum: a206ba358eddb7588b594d2daa79e9a0
+SHA1: ea18ed07d4ce1f0dd849f5115168b01ff5b6936e
+SHA256: 200eaea160c5d7380f656fe99d1c47c3d7640ea3b5fd957ecdc6127b0c3a0307
 Section: utils
 Priority: optional
 Description: Lossless MPEG audio compressor (MP3/MP2/MP1)
