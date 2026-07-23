@@ -62,10 +62,29 @@ Maintainer: Yade Bravo <https://github.com/YadeWira/packMP3>
 Installed-Size: 6464
 Depends: libc6, libstdc++6, zlib1g, liblzma5
 Filename: pool/main/packmp3_3.0_amd64.deb
-Size: 2103736
-MD5sum: 33791fc1540222b70e48e9ab856aa1dc
-SHA1: 7f141e798e4d7beb48bdbe35da0d86d67e50fa9b
-SHA256: 6ad4f86bd5a24052ce2d12f8b885b2b0d7515bf45a275d222f6f676b3ce38f1e
+Size: 2113408
+MD5sum: 40390ca744b6cc61362233f356c1049b
+SHA1: a37246f94027363a2c83be57920453e3da0f58f9
+SHA256: 2a4757fba88967a5accda012e7a5493a5e41636384a1ee353a93e2ed10484ed8
+Section: utils
+Priority: optional
+Description: Lossless MPEG audio compressor (MP3/MP2/MP1)
+ packMP3 losslessly recompresses MP3 (Layer III), MP2 (Layer II) and
+ MP1 (Layer I) audio files, reconstructing the exact original file bit
+ for bit. Embedded ID3v2 JPEG/PNG cover art is recompressed too, via
+ the sibling packJPG and packPNG libraries.
+
+Package: packmp3
+Version: 3.0-2
+Architecture: amd64
+Maintainer: Yade Bravo <https://github.com/YadeWira/packMP3>
+Installed-Size: 6464
+Depends: libc6, libstdc++6, zlib1g, liblzma5
+Filename: pool/main/packmp3_3.0-2_amd64.deb
+Size: 2113304
+MD5sum: 768d9b4876d34b05dac8b6144a3084c9
+SHA1: 3a5268e63596acb9aee0064eac78b0d5a384163a
+SHA256: 426f826558029c44b2b1014e8d2691a2b754f87da36d08e40d119f11c0229b0a
 Section: utils
 Priority: optional
 Description: Lossless MPEG audio compressor (MP3/MP2/MP1)
