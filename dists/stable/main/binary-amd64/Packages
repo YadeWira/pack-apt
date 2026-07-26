@@ -182,3 +182,20 @@ Description: Lossless PNG/APNG/JNG/MNG recompressor
  just the same pixels. Undoes the deflate exactly (preflate) and re-stores
  the image with a real codec (WebP-lossless by default).
 
+Package: packpng
+Version: 2.0d
+Architecture: amd64
+Maintainer: Yade Bravo <https://github.com/YadeWira/packPNG>
+Installed-Size: 7604
+Filename: pool/main/packpng_2.0d_amd64.deb
+Size: 2802794
+MD5sum: cf09e3ed23a3eb07dfe8cef966ec7f70
+SHA1: b4cb5e63bc9c5c1f6a150b809d72b644315746a7
+SHA256: 1e8a92c90ca7cfef970116a79c8b7aeca898da8995e1416caa6d715118e4d888
+Section: utils
+Priority: optional
+Description: Lossless PNG/APNG/JNG/MNG recompressor
+ packPNG reconstructs the byte-identical original file (same SHA-256),
+ not just the same pixels. Undoes the deflate exactly (preflate) and
+ re-stores the image with a real codec (WebP-lossless by default).
+
