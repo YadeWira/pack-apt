@@ -184,6 +184,25 @@ Description: Lossless MPEG audio compressor (MP3/MP2/MP1)
  for bit. Embedded ID3v2 JPEG/PNG cover art is recompressed too, via
  the sibling packJPG and packPNG libraries.
 
+Package: packmp3
+Version: 3.0d
+Architecture: amd64
+Maintainer: Yade Bravo <https://github.com/YadeWira/packMP3>
+Installed-Size: 6464
+Depends: libc6, libstdc++6, zlib1g, liblzma5
+Filename: pool/main/packmp3_3.0d_amd64.deb
+Size: 2142212
+MD5sum: ef62dd23710fde8cc5fe38804200e103
+SHA1: 585a13250b45b358f05f53409b0fb8ce7f184e77
+SHA256: cab195177ffeaf92cfae9b47b3913a976ee40b42d972cff1149cb8943d9ca949
+Section: utils
+Priority: optional
+Description: Lossless MPEG audio compressor (MP3/MP2/MP1)
+ packMP3 losslessly recompresses MP3 (Layer III), MP2 (Layer II) and
+ MP1 (Layer I) audio files, reconstructing the exact original file bit
+ for bit. Embedded ID3v2 JPEG/PNG cover art is recompressed too, via
+ the sibling packJPG and packPNG libraries.
+
 Package: packpng
 Version: 2.0c
 Architecture: amd64
